@@ -1,0 +1,40 @@
+QWidget {
+    background-color: #111111;
+}
+
+* {
+    font-family: "Consolas";
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: Normal;
+  }
+
+QLabel#title {
+    font-size: 50px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+QLabel#author {
+    font-size: 15px;
+    color: gray;
+}
+
+QPushButton {
+    background-color: #0064FF;
+    border: 0 solid;
+    border-radius: 10px;
+    height: 30px;
+}
+
+QPushButton:hover {
+    background-color: #0056d6;
+}
+
+QTextEdit {
+    background-color: #222222;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    color: white;
+}
